@@ -250,7 +250,7 @@
   var clientId = randomString(5);
   var user_name = "admin";
   var pass = "admin";
-  var wsurl = "ws://broker-amq-websocket-fxdemo.rhel-cdk.10.1.2.2.xip.io:8080/mqtt";
+  var wsurl = "ws://broker-amq-websocket:61614/mqtt";
   var client = new Paho.MQTT.Client(wsurl, clientId);
   var MQTTconnected = false;
 
